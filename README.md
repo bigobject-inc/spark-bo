@@ -7,7 +7,8 @@ BO, a.k.a [Bigobject](http://www.bigobject.io/).
 "BigObject Analytics delivers an analytic framework that unmask the intelligence out of your data."
 
 ## How to collaborate with multiple BO nodes?
-BOMaster is a singleton to accumulate and co-work with multiple BO nodes. You’ve to build your code with bo-master.scala. Besides, you may want to change the package name in bo-master.scala to make it same as your package.
+BOMaster is an example to accumulate and co-work with multiple BO nodes. You’ve to build your code with bo-master.scala. Besides, you may want to change the package name in bo-master.scala to make it be same as your package.
+This example demonstrates how to concatenate result sets from multiple BO nodes.
 
 ### How to use?
 To work with BO, you can use BOMaster object, it provides a function to issue a SQL statement. Here is the object definition:
